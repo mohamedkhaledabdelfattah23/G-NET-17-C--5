@@ -54,9 +54,67 @@ namespace ConsoleApp3
 
 
 
+            #region Question 02
 
 
 
-        }    
+            //Console.Write("Enter array size: ");
+
+            //if (int.TryParse(Console.ReadLine(), out int size) && size > 0)
+            //{
+            //    int[] arr = new int[size];
+
+            //    int sum = 0;
+            //    int max = int.MinValue;
+            //    int min = int.MaxValue;
+
+            //    for (int i = 0; i < size; i++)
+            //    {
+            //        Console.Write($"Enter element [{i}]: ");
+
+            //        while (!int.TryParse(Console.ReadLine(), out arr[i]))
+            //        {
+            //            Console.Write("Invalid! Enter a number: ");
+            //        }
+
+            //        sum += arr[i];
+
+            //        if (arr[i] > max) max = arr[i];
+            //        if (arr[i] < min) min = arr[i];
+            //    }
+
+            //    double avg = (double)sum / size;
+
+            //    Console.WriteLine($"\nSum     = {sum}");
+            //    Console.WriteLine($"Average = {avg}");
+            //    Console.WriteLine($"Max     = {max}");
+            //    Console.WriteLine($"Min     = {min}");
+
+            //    Console.Write("Reverse = ");
+
+            //    for (int i = size - 1; i >= 0; i--)
+            //        Console.Write(arr[i] + " ");
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #endregion
+
+
+
+
+
+
+        }
     }
 }
